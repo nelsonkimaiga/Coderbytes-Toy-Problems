@@ -20,6 +20,14 @@ class Function {
   	if (isLowercase(c)){
   		//replace
   		char newChar = (char)((c -'a' + 1) % ('z'-'a') + 'a');
+  		switch (newChar) {
+                    case 'a': case 'e': case 'i': case 'o': case 'u': 
+                        newChar -= 'a' - 'A'; 
+                        break;
+                }
+
+
+                
   }
 
 

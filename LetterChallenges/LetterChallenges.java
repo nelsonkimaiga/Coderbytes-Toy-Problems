@@ -24,15 +24,11 @@ class Function {
                     case 'a': case 'e': case 'i': case 'o': case 'u': 
                         newChar -= 'a' - 'A'; 
                         break;
-                }
-
-
-                
-  }
-
-
-
-
+                shifted.append(newChar);
+            } else {
+                shifted.append(c);
+            }
+        }
 
     return str;
     

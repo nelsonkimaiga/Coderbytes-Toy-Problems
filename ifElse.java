@@ -1,14 +1,16 @@
 public class ifElse{
  public static void main(String[] args) {
- 	int testscore;
+ 	int testscore = 76;
  	char grade;
 
  	if (testscore >= 90){
- 		System.out.Println("A");
+ 		grade='A';
  	} else if (testscore >= 80){
- 		System.out.Println("B");
+ 		grade='B';
  	}else if (testscore >= 70) {
- 		System.out.Println("C");
+ 		grade='C';
+ 	}else if (testscore>=60) {
+ 		grade='D';
  	}
  }
 }

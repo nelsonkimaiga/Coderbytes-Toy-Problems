@@ -3,7 +3,7 @@ public class SwitchStatement{
 		int month = 8;
 		String monthString;
 		switch (month){
-			case 1: monthString = "January";
+		case 1: monthString = "January";
                      break;
             case 2: monthString = "February";
             		break;
@@ -11,7 +11,7 @@ public class SwitchStatement{
             		break;
             case 4: monthString = "April";
             		break;
-            case 5: monthStringn = "May";
+            case 5: monthString = "May";
             		break;
             case 6: monthString = "June";
             		break;
@@ -26,7 +26,9 @@ public class SwitchStatement{
             case 11: monthString = "November";
             		break;
             case 12: monthString = "December";
-            		break;																					         
+            		break;
+            case 13: monthString = "Default";
+                        break;            																					         
 		}
 System.out.Println(monthString);
 	}

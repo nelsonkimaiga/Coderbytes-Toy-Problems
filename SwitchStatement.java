@@ -11,7 +11,7 @@ public class SwitchStatement{
             		break;
             case 4: monthString = "April";
             		break;
-            case 5: monthString = "May";
+            case 5: monthStringn = "May";
             		break;
             case 6: monthString = "June";
             		break;
